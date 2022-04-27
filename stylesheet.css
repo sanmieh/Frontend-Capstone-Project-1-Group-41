@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:ital,wght@1,400;1,700&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.2rem;
+  }
+
+
+ 
+  h2,h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+  }
+
+  .Logo {
+    cursor: pointer;
+  }
+
+  .contentBox {
+    width: 100%;
+    height: 100%;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(218, 28%, 13%);
+    background-position: bottom center;
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+
+  .navBar {
+    width: 100%;
+    padding: 60px;
+    background-color: hsl(217, 28%, 15%);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.nav-menu {
+    display: flex;
+    text-align: center;
+    width: 30%;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    margin: auto;
+    font-size: 13px;
+}
+
+.heroSection-container {
+  width: 100%;
+  background-color: hsl(217, 28%, 15%);
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-position: bottom center;
+  background-size: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.herosection {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 250px;
+  }
+
+.heroSection-Image {
+  width: 40%;
+}
+
+.heroSection-heading {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 20px auto;
+  width: 30%;
+}
+
+.heroSection-details {
+  margin: auto;
+  width: 30%;
+}
+
+button {
+  padding: 10px 50px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+  background: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+.fyloFeatures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.featureIcons {
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.Features {
+  width: 35%;
+  margin: 50px;
+}
+
+.Features h3 {
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.featureSummary {
+  width: 80%;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.featureSummary-illustration {
+  width: 45%;
+}
+
+.featureSummarytext {
+  width: 45%;
+  margin: auto;
+}
+
+.featureSummarytext p {
+  margin-top: 12px;
+}
+
+.featureSummaryheading {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 20px 0;
+  width: 60%;
+}
+
+.howFyloworks {
+  display: inline-block;
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  color: hsl(176, 68%, 64%);
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.arrow {
+  margin-bottom: -4px;
+}
+
+.quoteSection {
+  width: 80%;
+  margin: 100px auto;
+  position: relative;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quoteSymbol {
+  position: absolute;
+  top: -35px;
+  left: -15px;
+}
+
+.QuoteBox {
+  background-color: hsl(219, 30%, 18%);
+  width: 30%;
+  border-radius: 5px;
+  padding: 40px 20px 20px;
+  z-index: 10;
+}
+
+.quoteWords {
+  padding-bottom: 30px;
+}
+
+.quoter-profile {
+  border-radius: 50%;
+  float: left;
+  height: 35px;
+  margin-right: 8px;
+}
+
+.quoter-name {
+  font-weight: 700;
+}
+
+.quoter-position {
+  font-size: 10px;
+}
+
+.actionSection {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 7px;
+  text-align: center;
+  background-color: hsl(217, 28%, 15%);
+  padding: 30px 50px;
+  transform: translateY(40%);
+}
+
+.actionSection h2 {
+  font-size: 1,5rem;
+  font-weight: 700;
+}
+
+.actionSection p {
+  margin: 20px auto;
+  width: 80%;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#email {
+  padding: 10px 10px 10px 50px;
+  border-radius: 30px;
+  border: none;
+  font-weight: 300;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: hsl(0, 0%, 100%);
+  width: 58%;
+}
+
+::placeholder {
+  font-size: 10px;
+}
+
+.GetStarted {
+  width: 38%;
+  padding: 10px 10px;
+}
+
+.FooterSection {
+  background-color: hsl(216, 53%, 9%);
+  padding: 150px 100px 80px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footerDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  width: 30%;
+  display: flex;
+}
+
+.contact-icon {
+  width: min-content;
+  height: min-content;
+  margin-right: 2rem;
+  margin-top: 10px;
+}
+
+.footerNavs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 10%;
+  margin-right: 10px;
+}
+
+.footerNavs a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.contactDetails {
+  width: 20%;
+  margin: 0 50px 0 50px;
+}
+
+.contactDetails li {
+  display: inline-flex;
+  margin-bottom: 1.5rem;
+}
+
+.socialmedia {
+ width: 20%;
+ margin: 0;
+}
+
+.socialmedia i {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  
+}
+.attribution a { 
+  color: hsl(0, 0%, 100%); 
+}
+
+
+@media only screen and (max-width: 375px) {
+  body {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+
+  .Logo {
+    width: 70px;
+  }
+
+  .navBar {
+    padding: 15px;
+  }
+
+.navLinks {
+    width: 50%;
+}
+
+.navLinks a {
+    font-size: 10px;
+}
+
+.heroSection-container {
+  background-image: url(images/bg-curvy-mobile.svg);
+}
+
+.herosection {
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 250px;
+  }
+
+.heroSection-Image {
+  width: 100%;
+}
+
+.heroSection-heading {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 20px auto;
+  width: 100%;
+}
+
+.heroSection-details {
+  width: 90%;
+}
+
+.fyloFeatures {
+  padding-top: 50px;
+  width: 70%;
+}
+
+.featureIcons {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.Features {
+  width: 85%;
+  margin: 30px 0;
+}
+
+.Features h3 {
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.featureSummary {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featureSummary-illustration {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+
+.featureSummarytext {
+  width: 80%;
+  margin: auto;
+}
+
+.featureSummarytext p {
+  margin-top: 10px;
+}
+
+.featureSummaryheading {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.quoteSection {
+  width: 100%;
+  margin: 100px auto 0;
+}
+
+.quoteSymbol {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  width: 30px;
+}
+
+.QuoteBox {
+  width: 80%;
+  margin: 0 auto 30px;
+  padding: 30px;
+}
+
+.quoteWords {
+  padding-bottom: 30px;
+  font-size: 12px;
+}
+
+.quoter-profile {
+  height: 40px;
+}
+
+.quoter-position {
+  font-size: 10px;
+}
+
+.actionSection {
+  width: 50%;
+  margin: 0 auto 50px;
+  padding: 30px 20px;
+}
+
+.actionSection h2 {
+  font-size: 1,5rem;
+  font-weight: 700;
+}
+
+.actionSection p {
+  margin: 20px auto;
+  width: 90%;
+}
+
+form {
+  flex-wrap: wrap;
+}
+
+#email {
+  margin: 5px auto;
+  width: 90%;
+}
+
+.GetStarted {
+  width: 90%;
+  margin: 5px auto;
+  padding: 10px 10px;
+}
+
+.FooterSection {
+  padding: 150px 30px 80px;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.footerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.address {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.footerNavs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.footerNavs a {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.contactDetails {
+  width: 100%;
+  margin: 0 0 30px;
+}
+
+.contactDetails li {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.socialmedia {
+ width: 50%;
+ margin: 10px auto 0;
+}
+
+.socialmedia i {
+  margin: 0 5px;
+  font-size: 1.5rem;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+}
